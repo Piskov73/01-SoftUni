@@ -1,0 +1,19 @@
+article div p{
+    background-color:rgb(224, 102, 102) ;
+}
+ul li {
+    list-style: none;
+}
+ul div{
+    color: rgb(223, 130, 130);
+}
+ul>ul:first-of-type li a{
+    color: blue;
+}
+ul>ul:last-of-type li a{
+    color:  green;
+}
+
+h2~p{
+    color:  blue;
+}

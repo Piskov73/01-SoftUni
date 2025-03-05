@@ -1,0 +1,47 @@
+nav ul li a{
+    color: rgb(32, 32, 131);
+}
+.home{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.services{
+    font-style: italic;
+    font-weight:bold;
+}
+.about{
+    font-weight: bold;
+}
+header h1 {
+    
+    font-size: 2em;
+    margin-top: 20px;
+    position: relative; /* Позволява добавянето на псевдоелементи */
+}
+
+header h1::before {
+   
+    color: brown;
+    content: ">>"; /* Стрелка преди текста */
+    left: -40px; /* Разстояние от ляво */
+    font-size: 1.2em;}
+
+    header h1::after {
+        color: brown;
+        content: "<<"; /* Стрелка след текста */
+        right: -40px; /* Разстояние от дясно */
+       font-size:1.2em;
+    }
+
+    section p {
+        background-color: rgb(115, 196, 228);
+        font-weight: bold;
+    }
+    .my-image {
+        display: block; 
+      
+        border: 5px solid red; 
+      
+      
+    }
+    

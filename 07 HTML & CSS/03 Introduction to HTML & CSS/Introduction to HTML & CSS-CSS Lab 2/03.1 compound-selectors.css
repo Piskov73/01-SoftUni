@@ -1,0 +1,27 @@
+.blue-slass{
+    color:dodgerblue;
+}
+.marking-text{
+    background-color: rgb(238, 187, 76);
+}
+.light-blue-text{
+    color: rgb(43, 174, 179);
+}
+.red-text{
+    color:red;
+}
+.dark-blue-text{
+    color: darkblue;
+
+}
+#special-paragraph{
+    font-style: initial
+;
+}
+.double-underline {
+    text-decoration: underline;
+    border-bottom: 1px solid gold; 
+    padding-bottom: 2px; 
+    color:gold; 
+    text-decoration-color: gold; 
+}

@@ -1,0 +1,9 @@
+div p{color :darkblue;}
+
+p {color: darkblue; }
+
+.highlighted {background-color:lightgrey; padding: 5px; display:inline-block;}
+
+p span {color: crimson;}
+
+span{color: crimson;}
