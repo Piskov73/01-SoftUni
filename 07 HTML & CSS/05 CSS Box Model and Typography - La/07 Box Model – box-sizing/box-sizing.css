@@ -1,0 +1,15 @@
+.box-style{
+    width: 300px;
+    padding: 20px;
+    border:5px solid #333 ;
+    background:#eee;
+    margin: 20px;
+}
+
+.content-box{
+box-sizing: content-box;
+}
+
+.boorder-box{
+    box-sizing: border-box;
+}
