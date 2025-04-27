@@ -1,0 +1,36 @@
+.box {
+    font-family:Arial, Helvetica, sans-serif;
+    color: inherit;
+    font-size: inherit;
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+
+.button, .box a, .box button {
+    color: black;
+    display: inline-block;
+    border: 1px solid silver;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: transparent; 
+    font-family: inherit; 
+    font-size: inherit;
+}
+
+.button.silver {
+    background: silver;
+}
+
+.button.orange {
+    background: orange;
+}
+
+.button.yellow {
+    background: yellow;
+}

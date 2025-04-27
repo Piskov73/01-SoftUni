@@ -1,0 +1,26 @@
+body{
+  font-family: "Lato", sans-serif;
+}
+summary{
+  font-weight: bold;
+  cursor: pointer;
+}
+.accordeon-box{
+  width: 75%;
+  margin: 25px auto;
+  
+  
+}
+.accordeon-box details{
+  border: 1px solid rgb(224, 212, 212);
+  padding: 10px 20px;
+  border-bottom: 0;
+}
+
+.accordeon-box details:last-child{
+  border: 1px solid rgb(224, 212, 212);
+  padding: 10px 20px;
+  
+}
+
+ 

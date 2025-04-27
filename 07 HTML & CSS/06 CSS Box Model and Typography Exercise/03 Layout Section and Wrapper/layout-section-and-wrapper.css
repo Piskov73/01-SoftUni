@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.wrapper_model{
+    border: 2px solid green;
+    margin: 0;
+}
+
+.section_model{
+    border: 2px solid black;
+    margin: 20px;
+}
+.box_model{
+    border: 2px solid blue;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.box_model *{
+    font-family: Arial,  sans-serif;
+    font-size: 1em;
+    font-weight:bolder;
+    
+}
+
+
+
