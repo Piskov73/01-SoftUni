@@ -1,0 +1,35 @@
+.flex-conteiner{
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    border: 2px solid blue;
+    display:  flex;
+}
+
+.flex-item{
+    padding: 20px;
+    border: 2px solid black;
+    background: #b8b5b5;
+}
+p{
+    margin: 0;
+}
+
+.align-items-streths{
+    align-items: stretch;
+}
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-flex-end{
+    align-items: flex-end;
+}
+
+.align-items-baseline{
+    align-items: baseline;
+}
