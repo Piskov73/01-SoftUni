@@ -1,0 +1,124 @@
+
+body {
+    background-color: #e7e7e7;
+    font-family: "Lato", sans-serif;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+
+.box-banner {
+    margin: 2em auto;
+    padding: 2em;
+    width: 80vw;
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.content {
+    flex: 5;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.banner {
+    flex: 2;
+    border: 2px solid #d6d6d6;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+
+header > p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header > h2 {
+    font-size: 2em;
+}
+
+
+.content > footer {
+    display: flex;
+    gap: 20px;
+}
+
+.content > footer p {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.content > footer p:first-child {
+    background-color: blueviolet;
+    color: white;
+}
+
+.content > footer p:last-child {
+    background-color: #e7e7e7;
+    color: #a5a4a4;
+}
+
+.content > footer p {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content > footer p:first-child {
+    background-color: blueviolet;
+    color: white;
+}
+
+.content > footer p:first-child:hover {
+    background-color: indigo;
+    color: #fff;
+}
+
+.content > footer p:last-child {
+    background-color: #e7e7e7;
+    color: #a5a4a4;
+}
+
+.content > footer p:last-child:hover {
+    background-color: #d0d0d0;
+    color: #333;
+}
+
+.content > footer p {
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.content > footer p:first-child:hover {
+  background-color: indigo;
+  color: #fff;
+}
+
+.content > footer p:last-child:hover {
+  background-color: #d0d0d0;
+  color: #333;
+}
+
+
+.content > footer p:active {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98); 
+}
+
+

@@ -1,0 +1,31 @@
+body{
+    background: rgb(221, 220, 220);
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  height: 100vh;            
+  margin: 0;    
+}
+
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45vw;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.flexbox>*{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul{
+    margin: 30px;
+}
+

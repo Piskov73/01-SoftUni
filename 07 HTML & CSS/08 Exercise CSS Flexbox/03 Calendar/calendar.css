@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background: rgb(250, 249, 249);
+}
+
+.box{
+    width: 70%;
+    margin: 30px auto;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background:white;
+    border-radius: 3px;
+    
+}
+.calendar{
+    display: flex;
+  
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    
+}
+.calendar>*{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar .week{
+    flex-grow: 7;
+    border-right: 1px solid rgb(226, 226, 226);
+}
+
+.calendar .notes{
+    flex-grow: 3;
+}
+.week>div , .notes>div{
+    flex: 1 1 auto;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 10px;
+    text-align: center;
+}
+
+.week>div:nth-child(1),
+.week>div:nth-child(7)
+{
+   flex: 1 1 100%;
+}
+
+
